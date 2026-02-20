@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { Revox } from 'revox';
+import { Revox } from '@revoxai/sdk';
 
 const { stringifyQuery } = Revox.prototype as any;
 

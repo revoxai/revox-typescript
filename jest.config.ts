@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^revox$': '<rootDir>/src/index.ts',
-    '^revox/(.*)$': '<rootDir>/src/$1',
+    '^@revoxai/sdk$': '<rootDir>/src/index.ts',
+    '^@revoxai/sdk/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',
