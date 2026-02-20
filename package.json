@@ -1,5 +1,5 @@
 {
-  "name": "revox",
+  "name": "@revoxai/sdk",
   "version": "0.0.2",
   "description": "The official TypeScript library for the Revox API",
   "author": "Revox <>",

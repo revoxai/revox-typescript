@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'revox/core/api-promise';
+import { APIPromise } from '@revoxai/sdk/core/api-promise';
 
 import util from 'node:util';
-import Revox from 'revox';
-import { APIUserAbortError } from 'revox';
+import Revox from '@revoxai/sdk';
+import { APIUserAbortError } from '@revoxai/sdk';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

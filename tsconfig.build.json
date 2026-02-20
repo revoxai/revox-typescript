@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "revox/*": ["./dist/src/*"],
-      "revox": ["./dist/src/index.ts"]
+      "@revoxai/sdk/*": ["./dist/src/*"],
+      "@revoxai/sdk": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

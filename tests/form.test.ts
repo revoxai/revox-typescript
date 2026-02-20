@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'revox/internal/uploads';
-import { toFile } from 'revox/core/uploads';
+import { multipartFormRequestOptions, createForm } from '@revoxai/sdk/internal/uploads';
+import { toFile } from '@revoxai/sdk/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
